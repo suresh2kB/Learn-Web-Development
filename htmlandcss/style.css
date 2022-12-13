@@ -1,8 +1,27 @@
 h1 {
     color: blue;
+    background-color: bisque;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
+    letter-spacing: 5px;
 }
 
 p {
+    font-weight: 500;
+    line-height: 2;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font: bold;
     color: rgb(91, 62, 165);
+    background-color: rgb(184, 110, 19);
+}
+
+button {
+    color: red;
+    background-color: green;
+}
+
+body {
+    background-color: cornflowerblue;
 }
