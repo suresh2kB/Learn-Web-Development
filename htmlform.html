@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+</head>
+
+<body>
+    <h1>Forms in html</h1>
+    <form action="https://www.youtube.com/search/">
+        <p>
+            <label for="username">Enter a username</label>
+            <input type="text" placeholder="username" id="username" name="search_query">
+        </p>
+        <p>
+            <label for="password">Enter a passowrd</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter your color for text</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="file">Attach your Resume</label>
+            <input type="file" id="file" name="file">
+        </p>
+        <p>
+            <label for="number">Enter a number</label>
+            <input type="number" placeholder="enter a number" min="0" id="number" name="number">
+        </p>
+        <button type="button">Submit</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="https://www.youtube.com/search/">
+        <label for="search_query"></label>
+        <input type="text" name="search_query">
+        <button>Submit</button>
+    </form>
+    <form action="https://amazon.jobs/en/search">
+        <button>Search jobs at Amazon</button>
+    </form>
+
+
+    <form action="https://www.google.com">
+        <p>
+            <label for="checkbox">Agree to all documents</label>
+            <input type="checkbox" name="checkbox" id="checkbox" checked>
+        </p>
+        <button>submit</button>
+    </form>
+
+    <form action="https://www.google.com">
+        <p>
+            <label for="xxl">XXL</label>
+            <input type="radio" name="size" id="xxl" value="xxl">
+            <label for="xl">XL</label>
+            <input type="radio" name="size" id="xl" value="xl">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <form action="https://www.google.com">
+        <p>
+            <label for="food">Please Select a food</label>
+            <select name="food" id="food">
+                <option value="Roti" selected>Roti</option>
+                <option value="Daal">Daal</option>
+                <option value="Chai">Chai</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <h2>Form validation demo</h2>
+    <form action="/suresh">
+        <div>
+            <label for="firstName"></label>
+            <input type="text" name="first" id="firstName" required placeholder="Enter first Name">
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <h2>HTML done completed, Now let's start CSS.</h2>
+</body>
+
+</html>
