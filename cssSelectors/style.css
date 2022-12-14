@@ -31,3 +31,16 @@ h2 {
 .post a {
     color: darkorchid;
 }
+
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.post a:hover {
+    text-decoration: overline;
+}
+
+.post:nth-last-of-type(n) {
+    background-color: cadetblue;
+}
