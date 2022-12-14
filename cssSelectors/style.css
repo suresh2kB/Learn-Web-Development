@@ -1,0 +1,33 @@
+/* Universal selector */
+/* * {
+    background-color: aqua;
+} */
+
+body {
+    background-color: darkgray;
+}
+
+/* Element Selector */
+
+button {
+    font-size: 30px;
+    background-color: #AAC1FF;
+}
+
+h1,
+h2 {
+    background-color: blanchedalmond;
+}
+
+#signup {
+    background-color: burlywood;
+}
+
+.tag {
+    background-color: chartreuse;
+    color: rgb(18, 17, 10);
+}
+
+.post a {
+    color: darkorchid;
+}
