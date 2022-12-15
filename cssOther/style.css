@@ -1,0 +1,19 @@
+section {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
+
+#rgba {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 50%;
+    height: 50%;
+
+}
+
+#opacity {
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    opacity: 0.7;
+}
