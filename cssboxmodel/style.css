@@ -1,0 +1,45 @@
+p {
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+#one {
+    background-color: aqua;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#two {
+    background-color: azure;
+    border-width: 5px;
+    border-color: rgb(178, 44, 44);
+    border-style: solid;
+}
+
+#three {
+    background-color: blanchedalmond;
+    border-width: 5px;
+    border-color: rgb(74, 147, 96);
+    border-style: solid;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#submit {
+    background-color: rgb(27, 169, 102);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 40px 30px 20px 10px;
+}
+
+#pay {
+    background-color: rgb(27, 169, 102);
+    color: white;
+    padding: 10px 5px 7px 3px;
+    border-radius: 5px;
+
+}

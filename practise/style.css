@@ -1,0 +1,17 @@
+#dog {
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: blue;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+div {
+    width: 200px;
+    border-width: 5px;
+    border-color: rgb(216, 216, 229);
+    border-style: solid;
+    border-radius: 5px;
+}
